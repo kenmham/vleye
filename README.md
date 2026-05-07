@@ -2,7 +2,7 @@
 
 A vision-language library for understanding and editing video. Open source, runs locally, takes minutes, costs cents.
 
-More than a clipping tool: an editor that argues back.
+This is a proof of concept. The architecture is the point, not the feature set, which is easily extendable.
 
 ![vleye GUI — three-panel layout: scene timeline (left), video viewfinder (center), structured reasoning trace with feedback input (right)](GUI_DEMO.png)
 
@@ -38,7 +38,7 @@ Optional: beat-aligned cutting via onset detection (librosa) to snap cuts to a m
 
 ## The trace
 
-Most AI editing tools output a scene order. vleye outputs a reasoning document.
+Most AI editing tools output a scene order. vleye outputs a reasoning document. 
 
 The LLM interprets your footage, proposes a structure, and defends its choices: "I placed the wide landscape after the direct address because the speaker needs room to land." When you push back, it doesn't just swap clips. It revisits the specific argument that produced that choice and either revises or holds.
 
