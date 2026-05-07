@@ -1,0 +1,19 @@
+CLAUDE.md
+.claude
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Node
+gui/node_modules/
+gui/dist/
+
+# Project data — exclude analyzed projects from the repo
+test_project/
+
+# macOS
+.DS_Store
