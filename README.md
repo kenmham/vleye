@@ -2,11 +2,11 @@
 
 A vision-language library for understanding and editing video. Open source, runs locally, takes minutes, costs cents.
 
-Not just a clipping tool: an editor that argues back.
+More than a clipping tool: an editor that argues back.
 
 ![vleye GUI — three-panel layout: scene timeline (left), video viewfinder (center), structured reasoning trace with feedback input (right)](GUI_DEMO.png)
 
-> **Three panels.** Left: draggable scene cards in edit order. Center: click any card to preview that clip. Right: the structured reasoning trace — thesis, one argument per cut arrow, feedback input that targets individual transitions.
+> **Three panels.** Left: draggable scene cards in edit order. Center: click any card to preview that clip. Right: the structured reasoning trace; thesis, one argument per cut arrow, feedback input that targets individual transitions.
 
 ---
 
@@ -125,4 +125,6 @@ Short clips sample more densely, long videos more sparsely: `interval = clamp(lo
 
 MIT.
 
+```
 Built entirely on public algorithms and open models. No proprietary methods. We ❤️ open source.
+```
