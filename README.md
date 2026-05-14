@@ -2,7 +2,7 @@
 
 A vision-language library for understanding and editing video. Open source, runs locally, takes minutes, costs cents.
 
-This is a proof of concept. The architecture is the point, not the feature set, which is easily extendable.
+Proof of concept. The interesting parts are the architecture, not the feature set, which is easily extendable.
 
 ![vleye GUI — three-panel layout: scene timeline (left), video viewfinder (center), structured reasoning trace with feedback input (right)](GUI_DEMO.png)
 
